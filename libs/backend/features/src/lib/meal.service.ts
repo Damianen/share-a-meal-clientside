@@ -17,6 +17,15 @@ export class MealService {
             sort: MealSort.Dinner,
             cook: "John Doe",
         },
+        {
+            id: '1',
+            title: 'Stampot',
+            description: 'wat eten we vanavond?',
+            isVega: true,
+            dateServed: new Date(),
+            sort: MealSort.Dinner,
+            cook: "John Doe",
+        },
     ]);
 
     getAll(): IMeal[] {
